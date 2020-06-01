@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./simpleWay/src/core/main.js",
+  "scripts": {
+    "updateAPI": "node ./src/interceptor/mockApi/自动获取api.js & node ./src/interceptor/http/自动获取api.js",
+    "build": "npm --prefix ./simpleWay run build & npm --prefix ./simpleWay run lazyJs",
+    "serve": "npm --prefix ./simpleWay run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

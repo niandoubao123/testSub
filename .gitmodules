@@ -1,0 +1,3 @@
+[submodule "simpleway"]
+	path = simpleway
+	url = http://gitlab.smartgalaxy.net:8680/FE/technology/simpleway.git

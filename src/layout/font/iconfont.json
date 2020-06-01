@@ -1,0 +1,30 @@
+{
+  "id": "1584230",
+  "name": "1271",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1366145",
+      "name": "设置3",
+      "font_class": "setting_",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "3001086",
+      "name": "摄像头",
+      "font_class": "shexiangtou",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "12103196",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

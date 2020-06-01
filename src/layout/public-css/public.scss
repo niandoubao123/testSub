@@ -1,0 +1,44 @@
+.shake{
+  animation-name: shake-little;
+  animation-duration: 100ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes shake-little{
+  0%{
+    transform:rotate(0deg);
+  }
+  25%{
+    transform:rotate(-1deg);
+  }
+  75%{
+    transform:rotate(1deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+.No {
+  border: 1px solid #E4E4E4;
+  text-align: center;
+  line-height: 20px;
+  color: #7d7d7d;
+  background-color: #fff;
+}
+.White {
+  color: #333!important;
+  background-color: #f4f4f4!important;
+}
+.Blue {
+  background-color: blue!important;
+}
+.Yellow {
+  background-color: yellow!important;
+}
+.Green {
+  background-color: green!important;
+}
+.Black {
+  background-color: black!important;
+}

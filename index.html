@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon"/>
+    <title>交警中间件</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but simplyway doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script>
+      if (localStorage.sessionId) {
+        var s = "replace Script"
+        var l = "replace Link"
+        l instanceof Array && l.forEach(function (item) {
+          var dom = document.createElement('link')
+          dom.rel = 'stylesheet'
+          dom.href = item
+          document.head.appendChild(dom)
+        })
+        s instanceof Array && s.forEach(function (item) {
+          var dom = document.createElement('script')
+          dom.src = item
+          document.body.appendChild(dom)
+        })
+      } else {location.href = './login.html'}
+    </script>
+    <script src="./static/config.js"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
